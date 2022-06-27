@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>CineManíaco - O Iluminado</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="iconghost/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconghostfavicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="iconghost/favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="iluminado.css"> 
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+<body>
+   
+	<div class="hero">
+		<nav>
+			<h2 class="logo">O<span> Iluminado</span></h2>
+
+			<ul>
+				<li><a href="index.html">Página Inicial</a></li>
+				<li><a href="terrorpsicologico.html">Filmes Psicológicos</a></li>
+                <li><a href="terrordemoniaco.html">Filmes Demoníacos</a></li>
+                <li><a href="movies.html">Filmes Slasher</a></li>
+
+
+				
+			</ul>
+			<br><br><br><br><br>
+		</nav>
+		<div class="container">
+            <div class="box">
+        	<div class="imgBx img1">
+				    <a href="#">
+						<img src="imagens/ilu2.png" title="A Boneca Annabelle da vida real">
+					</a>
+               </div>
+			</div>
+			   <div class="box">
+                <div class="imgBx img2">
+				    <a href="#">
+						<img src="imagens/ilu.jpg" title="A Boneca Annabelle (2017)">
+					</a>
+                </div>
+				</div>
+				<div class="box">
+                <div class="imgBx img3">
+				   <a href="#">
+                    <img src="imagens/ilu4.jpg" title="A Boneca Annabelle (2019)">
+					</a></div>
+            	</div>
+        </div>
+
+        <script>
+
+            let imgBx = document.querySelectorAll('.imgBx');
+            imgBx.foreach(popup => popup.addEventListener('click', () =>{
+                popup.classlist.toggle('active');
+            }))
+            </script>
+
+	</div>
+	<section class="about">
+		<div class="main">
+			<img id="exorcist" src="imagens/iluminado.jpg" title="Jack Torrance">
+		</div>
+			<div class="about-text">
+				<h2>Quem é "O Iluminado"?</h2>
+				<p>Para muitos, o "Iluminado" se trata de um dos melhores filmes de terror de todos os tempos, embora tenha apenas um filme na franquia, lançado em 1980. <br> O Iluminado conta a história de Jack Nicholson, que era um escritor com grandes problemas envolvendo álcool e solitarismo. Ele tinha um grande bloqueio de criação para escrever, muitas das vezes o faltava inspiração ou determinação de uma história concreta. <br> Esse bloqueio psicológico fez com que Jack ficasse completamente alucinógeno, ele se via na dependência da escrita para sobreviver e mostrar quem ele realmente era. <br> Jack Torrance se torna caseiro de inverno do isolado Hotel Overlook, nas montanhas do Colorado, na esperança de curar seu bloqueio de escritor. Ele se instala com a esposa Wendy e o filho Danny, que é atormentando por premonições. Jack não consegue escrever e as visões de Danny se tornam mais perturbadoras. O escritor descobre os segredos sombrios do hotel e começa a se transformar em um maníaco homicida, aterrorizando sua família. <br> <br> Talvez, por essas descrições do personagem, muitas pessoas podem não o reconhecer. Mas, se citarmos a sua maior marca nos filmes de terror, tenho certeza que todos irão se lembrar. <b><span> Here’s Johnny,</span></b> ou "Aqui é o Johnny" na tradução vernácula, é uma das frases mais icônicas da história do universo cinematográfico de terror. Jack quebra uma pequena parte da porta com um machado, para que possa alcançar Shelley e matá-la. Ao quebrar a porta, ele produz uma das cenas mais nostálgicas da história do cinema.</p>
+			</div>
+	</section>
+	<div class="service">
+		<div class="title">
+			<h2>FILMES DA FRANQUIA</h2>
+		</div>
+		<div class="box2">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				
+               	<img src="imagens/iluminado.jpg" title="O Iluminado (1980)">
+
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				
+				<img src="imagens/doutor.jpg" title="Doutor Sono (2019)">
+					
+					
+			</div>
+		</div>
+	</div>
+
+
+	<div class="contact-me">
+		<p>Gostou? Ajude a manter o site de pé! =)</p>
+		<a class="button-two" href="https://www.vakinha.com.br/2908876">Donate</a>
+	</div>
+
+	
+	<footer>
+
+		<p class="end"> © CopyRight CineManíaco. 2022</p>
+	</footer>
+</body>
+</html>

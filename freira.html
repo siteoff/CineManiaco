@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>CineManíaco - A Freira</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="iconmichael/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconmichael/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="iconmichael/favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="freira.css"> 
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+<body>
+   
+	<div class="hero">
+		<nav>
+			<h2 class="logo">A<span> Freira</span></h2>
+
+			<ul>
+				<li><a href="index.html">Página Inicial</a></li>
+				<li><a href="terrordemoniaco.html">Filmes Demoníaco</a></li>
+                <li><a href="movies.html">Filmes Slasher</a></li>
+                <li><a href="terrorpsicologico.html">Filmes Psicológicos</a></li>
+		
+
+				
+			</ul>
+			<br><br><br><br><br>
+		</nav>
+		<div class="container">
+            <div class="box">
+        	<div class="imgBx img1">
+				    <a href="#">
+						<img src="imagens/fr1.jpg" title="A Freira">
+					</a>
+               </div>
+			</div>
+			   <div class="box">
+                <div class="imgBx img2">
+				    <a href="#">
+						<img src="imagens/freira.jpg" title="A Freira (2018)">
+					</a>
+                </div>
+				</div>
+				<div class="box">
+                <div class="imgBx img3">
+				   <a href="#">
+                    <img src="imagens/fr2.png" title="Invocação do Mal 2">
+					</a></div>
+            	</div>
+        </div>
+
+        <script>
+
+            let imgBx = document.querySelectorAll('.imgBx');
+            imgBx.foreach(popup => popup.addEventListener('click', () =>{
+                popup.classlist.toggle('active');
+            }))
+            </script>
+
+	</div>
+	<section class="about">
+		<div class="main">
+			<img src="imagens/freiraa.png" title="A Freira">
+			<div class="about-text">
+				<h2>Quem é a Freira?</h2>
+				<p>A Freira é uma personagem da franquia "Invocação do Mal", na qual foi ocorre um processo de possessão demoníaca pelo demônio de <b><span>Valac.</span></B><br>Na demonologia e goetia, Valac é a 62º entidade demoníaca do manual lemegeton/grimório do rei Salomão. Este é conhecido por indicar a localização de tesouros escondidos e de serpentes para os mágicos. O grimório o descreve como extremamente poderoso, presidente de 38 legiões de entidades demoníacas. <br> A primeira aparição dela foi em 2016, quando representava o demônio do filme "Invocação do Mal 2 (2016)" que, 2 (dois) anos depois, ela vinha a ganhar um filme próprio. <br>Muitos fãs de terror amam a personagem, muitos a consideram como o demônio mais aterrorizante da franquia Invocação do Mal. Porém, o seu filme solo decepcionou muita gente, visto que não apresentava aquele nível de terror macabro apresentado em "Invocação do Mal". <br> O filme foi escrito por <b><span> James Wan,</span></b> um dos melhores escritores de fimes do universo de terror e também escritor da saga "The Conjuring". Em base à isso, o hype gerado por esse filme foi gigantesco, muitas pessoas estavam ansiosas para esse momento. Porém, o filme não correspondeu às expectativas de muitos.</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="contact-me">
+		<p>Gostou? Ajude a manter o site de pé! =)</p>
+		<a class="button-two" href="https://www.vakinha.com.br/2908876">Donate</a>
+	</div>
+
+	
+	<footer>
+
+		<p class="end"> © CopyRight CineManíaco. 2022</p>
+	</footer>
+</body>
+</html>

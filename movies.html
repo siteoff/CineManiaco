@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="stylesheet" href="terrorD.css">
+    <title>CineManíaco - Terror Demoníaco</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Terror Slasher</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+ 
+            <li><a href="index.html" style="--i:1;">Início</a></li>
+            <li><a href="panico.html" style="--i:1;">Pânico</a></li>
+            <li><a href="halloween.html" style="--i:2;">Halloween</a></li>
+            <li><a href="brinquedoass.html" style="--i:3;">Brinquedo Assassino</a></li>
+            <li><a href="krueger.html" style="--i:4;">A Hora do Pesadelo</a></li>
+            <li><a href="#" style="--i:5;"></a></li>
+        </ul>
+        </header>
+        <div class="container">
+            <div class="box" style="--i:3;">
+                <div class="imgBx">
+				    <a href="panico.html">
+                    <img src="imagens/ghost1.jpg" title="Pânico">
+					</a>
+                </div>
+                </div>
+                <div class="box" style="--i:4;">
+                <div class="imgBx">
+				    <a href="halloween.html">
+                    <img src="imagens/michael.webp" title="Halloween">
+					</a>
+                </div>
+                </div>
+                <div class="box" style="--i:5;">
+                <div class="imgBx">
+				   <a href="brinquedoass.html">
+                    <img src="imagens/chucky.jpg" title="Brinquedo Assassino">
+					</a>
+                </div>
+            </div>
+            <div class="box" style="--i:6;">
+                <div class="imgBx">
+				    <a href="krueger.html">
+                    <img src="imagens/freddy.jpg" title="A Hora do Pesadelo">
+					</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="https://twitter.com/luizsfc_" target="_blank" style="--i:9;">Twitter</a></li>
+                <li><a href="https://www.instagram.com/higor_rocha__/" target="_blank" style="--i:8;">Instagram</a></li>
+                
+            </ul>
+            <p class="copyrightText">© CineManíaco. 2022</p>
+        </div>
+    </section>
+        <script>
+
+            let imgBx = document.querySelectorAll('.imgBx');
+            imgBx.foreach(popup => popup.addEventListener('click', () =>{
+                popup.classlist.toggle('active');
+            }))
+                
+
+            function toggleMenu() {
+                const menuToggle = document.querySelector('.toggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+
+            }
+        </script>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>CineManíaco - It: A Coisa </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="iconghost/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconghost/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="iconghost/favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="it.css"> 
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+<body>
+   
+	<div class="hero">
+		<nav>
+			<h2 class="logo">It:<span> A Coisa</span></h2>
+
+			<ul>
+				<li><a href="index.html">Página Inicial</a></li>
+				<li><a href="terrorpsicologico.html">Filmes Psicológicos</a></li>
+                <li><a href="terrordemoniaco.html">Filmes Demoníacos</a></li>
+                <li><a href="movies.html">Filmes Slasher</a></li>
+	
+
+				
+			</ul>
+			<br><br><br><br><br>
+		</nav>
+		<div class="container">
+            <div class="box">
+        	<div class="imgBx img1">
+				    <a href="#">
+						<img src="imagens/pp.webp" title="A Boneca Annabelle da vida real">
+					</a>
+               </div>
+			</div>
+			   <div class="box">
+                <div class="imgBx img2">
+				    <a href="#">
+						<img src="imagens/pennywisee.jpg" title="A Boneca Annabelle (2017)">
+					</a>
+                </div>
+				</div>
+				<div class="box">
+                <div class="imgBx img3">
+				   <a href="#">
+                    <img src="imagens/penn.jpg" title="A Boneca Annabelle (2019)">
+					</a></div>
+            	</div>
+        </div>
+
+        <script>
+
+            let imgBx = document.querySelectorAll('.imgBx');
+            imgBx.foreach(popup => popup.addEventListener('click', () =>{
+                popup.classlist.toggle('active');
+            }))
+            </script>
+
+	</div>
+	<section class="about">
+		<div class="main">
+			<img id="exorcist" src="imagens/p.png" title="Pennywise">
+		</div>
+			<div class="about-text">
+				<h2>Quem é Pennywise?</h2>
+				<p>Pennywise, ou o "Palhaço Dançarino", é uma das maiores obras de <b><span>Stephen King,</span></b> um dos maiores escritores da história. Ele escreveu <b><span> O Cemitério Maldito, À Espera de um Milagre, Doctor Sleep</span></b> e muitos outros clássicos livros de terror.<br><br> Na verdade, ele se inspirou em uma história real para criar o apavorante palhaço dançarino. O homem que serviu de inspiração para King se chamava John Wayne Gacy, um empresário de sucesso em Chicago e a princípio um rapaz responsável e ligado à família. <br> Segundo o que é relatado no livro, Pennywise é um suposto alienígena que, a cada 27 (vinte e sete) anos, volta para aterroizar as pessoas da cidade. Ele se difere de qualquer outro serial killer, já que o mesmo não utiliza nenhum instrumento fatal para executar as vítimas. O palhaço usa o poder da mente, ele utiliza do medo das pessoas para se vangloriar, para se superiorizar e causar o pânico. Esse fato faz com que o filme seja único e icônico, visto que isso nunca havia sido apresentado no universo de terror. <br>Quando recebeu uma adaptação cinematográfica em 2017, o filme fez questão de seguir os mesmos conceitos apresentados no livro, o que ocasionou em um grande interesse por parte do público para assistir a obra.</b></p>
+                
+
+ 
+			</div>
+	</section>
+	<div class="service">
+		<div class="title">
+			<h2>FILMES DA FRANQUIA</h2>
+		</div>
+		<div class="box2">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				
+               	<img src="imagens/it1.jpg" title="It: A Coisa (2017)">
+
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				
+				<img src="imagens/it2.jpg" title="It: A Coisa - Capítulo Dois (2019)">
+					
+					
+			</div>
+		</div>
+	</div>
+	<div class="contact-me">
+		<p>Gostou? Ajude a manter o site de pé! =)</p>
+		<a class="button-two" href="https://www.vakinha.com.br/2908876">Donate</a>
+	</div>
+
+	
+	<footer>
+
+		<p class="end"> © CopyRight CineManíaco. 2022</p>
+	</footer>
+</body>
+</html>
