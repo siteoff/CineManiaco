@@ -274,6 +274,7 @@ body::-webkit-scrollbar-thumb {
   color: #550190;
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 200px;
+  margin-top: 500px;
 }
 @media screen and (max-width:600px) {
   .alert{
